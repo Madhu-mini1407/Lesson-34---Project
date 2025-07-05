@@ -1,0 +1,53 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+#container {
+    width: 1000px;
+    height: 550px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url(digital-money-transfer-technology-background_1017-17454.avif);
+    margin: 20px auto;
+}
+
+#banking {
+    width: 400px;
+    height: 520px;
+    background-color: hsl(200, 14%, 93%);
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#board {
+    height: 400px;
+}
+
+
+button{
+    width: 80px;
+    height: 80px;
+    margin: 25px;
+    float: right;
+    border-radius: 60%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 25px;
+}
+button{
+    background-color: antiquewhite;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:active
+{
+    font-size:15px;
+}
+
+button:focus{outline:0;
+}
