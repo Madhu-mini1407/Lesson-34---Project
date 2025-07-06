@@ -51,3 +51,22 @@ button:active
 
 button:focus{outline:0;
 }
+.send{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-bottom: 10px solid lightgrey;
+}
+
+.amt.credit {
+    color: green;
+    text-align: right;
+}
+
+.amt.debit {
+    color: red;
+    text-align: left;
+}
+
+.type {
+    font-style: bold; }
